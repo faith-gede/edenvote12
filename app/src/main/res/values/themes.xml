@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Edenvote3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Overflow menu and popup theme -->
+        <item name="actionBarPopupTheme">@style/CustomPopupTheme</item>
+    </style>
+
+    <style name="CustomPopupTheme" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Theme.Edenvote3" parent="Base.Theme.Edenvote3">
+        <!-- Text color for icons on the toolbar itself -->
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+</resources>

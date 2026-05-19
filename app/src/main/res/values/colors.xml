@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4267B2</color> <!-- Facebook Blue-ish like the image -->
+    <color name="primary_dark">#283593</color> <!-- Deeper Blue -->
+    <color name="accent">#4FC3F7</color> <!-- Sky Blue -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F0F2F5</color> <!-- Off-white background from image -->
+    <color name="gray">#65676B</color> <!-- Dark gray for secondary text -->
+    <color name="danger">#F02849</color> <!-- Bright Red -->
+    <color name="success">#42B72A</color> <!-- Material Green for Active status -->
+    <color name="text_dark">#1C1E21</color> <!-- Very Dark Text -->
+
+    <!-- Status Colors from Image -->
+    <color name="status_active_bg">#D1FAE5</color>
+    <color name="status_active_text">#065F46</color>
+    <color name="status_upcoming_bg">#FEF3C7</color>
+    <color name="status_upcoming_text">#B45309</color>
+    <color name="status_completed_bg">#DBEAFE</color>
+    <color name="status_completed_text">#1E40AF</color>
+
+    <!-- Splash Colors -->
+    <color name="splash_orange">#F02849</color>
+    <color name="splash_blue_dark">#1e3a8a</color>
+    <color name="splash_blue_light">#2563eb</color>
+</resources>
